@@ -57,7 +57,7 @@ const theme = createTheme({
             root: {
                 textTransform: undefined,
                 padding: '12px 16px',
-                display: "none",
+                display: "block",
                 margin: "0 auto",
             },
             startIcon: {
