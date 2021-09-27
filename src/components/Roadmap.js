@@ -40,7 +40,7 @@ function Roadmap() {
           <p className="Toptext">100%</p>
           <p className="normaltext">
             200 MECH WARRIORS BUYBACk. It will be done over time to keep the
-            prices high for holders
+            prices high for holder
           </p>
         </div>
       </div>
