@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Elemental-end";
+  src: url(./fonts/Elemental\ End.ttf);
+}
+
+.container-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-section h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Elemental-end";
+}
+
+.info-box {
+  height: 300px;
+  width: 300px;
+  background: #0c0e32;
+  border-radius: 30px;
+  margin: 20px 0 0 0;
+}
+
+.info-box .toptext {
+  font-size: 25px;
+  font-family: "Elemental-end";
+  margin-left: 35px;
+}
+
+.info-box .normal-text {
+  font-size: 18px;
+  font-family: "Elemental-end";
+  margin-left: 35px;
+}
+
+@media screen and (max-width: 450px) {
+  .info-section h3 {
+    font-size: 30px;
+  }
+}

@@ -19,6 +19,13 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
+import Navbar from "./components/Navbar";
+import Topsection from "./components/Topsection";
+import Countdowntimer from "./components/Countdowntimer";
+import Showcase from "./components/Showcase";
+import Informationsection from "./components/Informationsection";
+import Roadmap from "./components/Roadmap";
+
 const ConnectButton = styled(WalletDialogButton)``;
 
 const CounterText = styled.span``; // add your styles here
@@ -147,6 +154,9 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+      <Navbar></Navbar>
+      <Topsection></Topsection>
+      <Countdowntimer></Countdowntimer>
       {wallet && (
         <p>Address: {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
@@ -196,6 +206,9 @@ const Home = (props: HomeProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
+      <Showcase></Showcase>
+      <Informationsection></Informationsection>
+      <Roadmap></Roadmap>
     </main>
   );
 };

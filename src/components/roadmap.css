@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Elemental-end";
+  src: url(./fonts/Elemental\ End.ttf);
+}
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px 30px 10px;
+  font-family: Elemental-end;
+  background-image: url("https://i.ibb.co/KwSTQCg/image1website.png");
+  background-repeat: no-repeat;
+  background-size: 900px;
+  background-position: top right;
+}
+
+.roadmap-container h3 {
+  margin-top: 70px;
+  font-size: 40px;
+}
+.roadmap-box {
+  text-align: center;
+  min-height: 200px;
+  width: 100%;
+  background-color: rgba(12, 14, 50, 0.8);
+  border-radius: 20px;
+  line-height: 1.6;
+}
+
+.Toptext {
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.normaltext {
+  padding-bottom: 20px;
+  margin: 0 20px 20px 20px;
+  max-width: 930px;
+}
+
+@media screen and (max-width: 554px) {
+  .roadmap-container {
+    background-position: top left;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .roadmap-container {
+    background-size: 700px;
+    background-position-x: -40px;
+  }
+}
